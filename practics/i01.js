@@ -272,25 +272,36 @@
 
 // console.log(rev("alijon"));
 
-let map = new Map([
-  ["Таджикистан", "Душанбе"],
-  ["Россия", "Москва"],
-  ["Китай", "Пекин"],
-]);
+// let map = new Map([
+//   ["Таджикистан", "Душанбе"],
+//   ["Россия", "Москва"],
+//   ["Китай", "Пекин"],
+// ]);
 
-console.log(map.get("Россия"));
+// console.log(map.get("Россия"));
 
-let nums = [1, 2, 2, 3, 4, 4, 5];
-let unik = new Set(nums);
-unik.delete(3);
+// let nums = [1, 2, 2, 3, 4, 4, 5];
+// let unik = new Set(nums);
+// unik.delete(3);
 
-console.log(unik);
-console.log(unik.has(5));
+// console.log(unik);
+// console.log(unik.has(5));
 
 
-let weakMap = new WeakMap();
+// let weakMap = new WeakMap();
 
-let user = {name: "Ali"}
-weakMap.set(user, "Amir")
+// let user = {name: "Ali"}
+// weakMap.set(user, "Amir")
 
-console.log(weakMap.get(user))
+// console.log(weakMap.get(user))
+
+
+
+
+
+
+
+
+
+
+
