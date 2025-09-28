@@ -6,9 +6,9 @@ let a = 16.52;
 let b = 10.12;
 
 if (a > b) {
-  let temp = a;
+  let zm = a;
   a = b;
-  b = temp;
+  b = zm;
 }
 
 console.log("А будет", a);
