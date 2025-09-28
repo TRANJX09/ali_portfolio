@@ -4,6 +4,6 @@
 
 let l = 250;
 
-let m = l / 100;
+let m = Math.floor(l / 100);
 
 console.log(m);
