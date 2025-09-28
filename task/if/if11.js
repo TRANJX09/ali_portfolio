@@ -8,9 +8,9 @@ let b = 5;
 
 if (a !== b) {
   if (a > b) {
-    let a = b;
+    a = b;
   } else if (b > a) {
-    let b = a;
+    b = a;
     console.log(a);
     console.log(b);
   }
